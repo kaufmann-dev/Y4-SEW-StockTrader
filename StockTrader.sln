@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTraderAPI", "StockTraderAPI\StockTraderAPI.csproj", "{2F225F52-C76F-4AF6-A889-09AF5021FC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{431A0DED-BE58-4D69-9F50-C7C9D8B33056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{80448827-03F7-4692-9500-C20A4A1D2C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F225F52-C76F-4AF6-A889-09AF5021FC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F225F52-C76F-4AF6-A889-09AF5021FC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F225F52-C76F-4AF6-A889-09AF5021FC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F225F52-C76F-4AF6-A889-09AF5021FC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A0DED-BE58-4D69-9F50-C7C9D8B33056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A0DED-BE58-4D69-9F50-C7C9D8B33056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A0DED-BE58-4D69-9F50-C7C9D8B33056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A0DED-BE58-4D69-9F50-C7C9D8B33056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80448827-03F7-4692-9500-C20A4A1D2C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80448827-03F7-4692-9500-C20A4A1D2C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80448827-03F7-4692-9500-C20A4A1D2C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80448827-03F7-4692-9500-C20A4A1D2C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
