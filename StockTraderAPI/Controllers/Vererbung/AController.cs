@@ -67,8 +67,7 @@ public abstract class AController<TEntity> : ControllerBase where TEntity : clas
         var data = await _repository.ReadAsync(id);
         if (data is null)
             return NotFound();
-
-
+        
         await _repository.DeleteAsync(data);
         _Logger.LogInformation($"Deleted entity {id}");
         return NoContent();

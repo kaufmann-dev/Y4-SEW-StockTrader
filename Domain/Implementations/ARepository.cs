@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Model.Configurations;
+using Model.Entities;
 
 namespace Domain.Implementations;
 

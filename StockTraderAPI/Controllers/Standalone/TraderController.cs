@@ -4,12 +4,11 @@ using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Model.Entities;
-using StockTraderAPI.Controllers.v1;
 
-namespace StockTraderAPI.Controllers;
+namespace StockTraderAPI.Controllers.Standalone;
 
 [ApiController]
-[Route("traders")]
+[Route("api/traders")]
 public class TraderController : ControllerBase
 {
     public ITraderRepository _repo { get; set; }
@@ -30,7 +29,7 @@ public class TraderController : ControllerBase
     }
 
     // Read single
-    [HttpGet("{id_int}")]
+    [HttpGet("{id:int}")]
     public async Task<ActionResult<Trader>> ReadAsync(int id)
     {
         var data = await _repo.ReadAsync(id);
@@ -70,7 +69,7 @@ public class TraderController : ControllerBase
     }
     
     // Read graph
-    [HttpGet("graph/{id}:int}")]
+    [HttpGet("graph/{id:int}")]
     public async Task<ActionResult<List<Trader>>> ReadGraphAsnyc(int id)
     {
         var data = await _repo.ReadGraphAsync(id);
@@ -82,9 +81,8 @@ public class TraderController : ControllerBase
         return Ok(data);
     }
     
-
     // Delete by id method 1
-    [HttpDelete("method1/{id:int")]
+    [HttpDelete("method1/{id:int}")]
     public async Task<ActionResult> DeleteAsync1(int id)
     {
         var data = await _repo.ReadAsync(id);

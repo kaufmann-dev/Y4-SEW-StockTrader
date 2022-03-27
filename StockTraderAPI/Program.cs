@@ -17,7 +17,7 @@ builder.Services.AddControllers();
 builder.Services.AddApiVersioning();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c=>c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First()));
 
 builder.Services.AddDbContextFactory<StockDbContext>(
     options => options.UseMySql(
@@ -25,6 +25,7 @@ builder.Services.AddDbContextFactory<StockDbContext>(
         new MySqlServerVersion(new Version(8,0,26))
     )
 );
+
 builder.Services.AddScoped<IRepository<Stock>, StockRepository>();
 builder.Services.AddScoped<IRepository<Trader>, TraderRepository>();
 

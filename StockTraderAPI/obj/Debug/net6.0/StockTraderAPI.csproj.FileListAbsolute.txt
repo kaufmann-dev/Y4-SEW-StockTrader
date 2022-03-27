@@ -75,3 +75,42 @@ C:\Users\flori\Downloads\StockTrader\StockTrader\StockTraderAPI\obj\Debug\net6.0
 C:\Users\flori\Downloads\StockTrader\StockTrader\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.pdb
 C:\Users\flori\Downloads\StockTrader\StockTrader\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.genruntimeconfig.cache
 C:\Users\flori\Downloads\StockTrader\StockTrader\StockTraderAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\StockTraderAPI.exe
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\StockTraderAPI.deps.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\StockTraderAPI.runtimeconfig.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\StockTraderAPI.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\ref\StockTraderAPI.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\StockTraderAPI.pdb
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Domain.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Model.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\bin\Debug\net6.0\Model.pdb
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.csproj.AssemblyReference.cache
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.AssemblyInfoInputs.cache
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.AssemblyInfo.cs
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.csproj.CoreCompileInputs.cache
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\scopedcss\bundle\StockTraderAPI.styles.css
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.csproj.CopyComplete
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\ref\StockTraderAPI.dll
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.pdb
+C:\Users\serbi\Documents\School projects\StockTraderOld - Kopie\StockTraderAPI\obj\Debug\net6.0\StockTraderAPI.genruntimeconfig.cache

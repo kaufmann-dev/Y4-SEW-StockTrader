@@ -2,8 +2,9 @@ using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Model.Entities;
+using StockTraderAPI.Controllers;
 
-namespace StockTraderAPI.Controllers.v2; 
+namespace StockTraderAPI.Controllers.Vererbung.v2;
 
 [ApiController]
 [ApiVersion("2.0")]

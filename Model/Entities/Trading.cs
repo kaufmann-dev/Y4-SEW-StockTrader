@@ -8,16 +8,16 @@ namespace Model.Entities;
 
 [Table("TRADER_HAS_STOCKS_JT")]
 public class Trading {
-    public Stock Stock { get; set; }
 
     [Column("STOCK_ID"), Required]
     public int StockId { get; set; }
+    public Stock Stock { get; set; }
 
     [JsonIgnore]
-    public Trader Trader { get; set; }
 
     [Column("TRADER_ID"), Required]
     public int TraderId { get; set; }
+    public Trader Trader { get; set; }
 
     [Column("TRADED_AT"), DataType(DataType.DateTime)]
     public DateTime TradedAt { get; set; }
