@@ -10,7 +10,7 @@ namespace StockTraderAPI.Controllers.Vererbung.v2;
 [ApiVersion("2.0")]
 [Route("api/v{version:apiVersion}/stocks")]
 public class StockController : AController<Stock> {
-    public StockController(IRepository<Stock> repository, ILogger<AController<Stock>> logger) : base(repository, logger)
+    public StockController(IStockRepository repository, ILogger<StockController> logger) : base(repository, logger)
     {
     }
 }

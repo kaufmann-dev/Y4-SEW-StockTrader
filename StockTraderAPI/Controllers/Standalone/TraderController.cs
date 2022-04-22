@@ -24,7 +24,11 @@ public class TraderController : ControllerBase
     [HttpPost]
     public async Task<ActionResult> CreateAsync(Trader trader)
     {
-        await _repo.CreateAsync(trader);
+        var data = await _repo.CreateAsync(trader);
+        if (data is null)
+        {
+            return BadRequest();
+        }
         return Ok();
     }
 
@@ -37,7 +41,6 @@ public class TraderController : ControllerBase
         {
             return NotFound();
         }
-
         return Ok(data);
     }
 
@@ -50,7 +53,6 @@ public class TraderController : ControllerBase
         {
             return NotFound();
         }
-
         return Ok(data);
     }
     
@@ -59,12 +61,10 @@ public class TraderController : ControllerBase
     public async Task<ActionResult<List<Trader>>> ReadFromStartToEnd(int start, int end)
     {
         var data = await _repo.ReadAllAsync(start, end);
-
         if (data is null)
         {
             return NotFound();
         }
-
         return Ok(data);
     }
     
@@ -77,41 +77,25 @@ public class TraderController : ControllerBase
         {
             return NotFound();
         }
-
         return Ok(data);
     }
     
-    // Delete by id method 1
-    [HttpDelete("method1/{id:int}")]
-    public async Task<ActionResult> DeleteAsync1(int id)
+    // Delete by id
+    [HttpDelete("delete/{id:int}")]
+    public async Task<ActionResult> DeleteAsync(int id)
     {
         var data = await _repo.ReadAsync(id);
         if (data is null)
         {
             return NotFound();
         }
-        
         await _repo.DeleteAsync(id);
         return NoContent();
     }
-    
-    // Delete by id method 2
-    [HttpDelete("method2/{id:int}")]
-    public async Task<ActionResult> DeleteAsync2(int id)
-    {
-        var data = await _repo.ReadAsync(id);
-        if (data is null)
-        {
-            return NotFound();
-        }
 
-        await _repo.DeleteAsync(data);
-        return NoContent();
-    }
-    
     // Delete by object
     [HttpDelete]
-    public async Task<ActionResult> DeleteAsync3(Trader trader)
+    public async Task<ActionResult> DeleteAsyncObj(Trader trader)
     {
         if (trader is null)
         {
@@ -140,7 +124,7 @@ public class TraderController : ControllerBase
     [HttpGet("ping")]
     public async Task<ActionResult<string>> Ping()
     {
-        return "hi";
+        return "pong";
     }
     
 }

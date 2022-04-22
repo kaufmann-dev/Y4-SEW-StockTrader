@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Domain.Implementations;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +13,7 @@ namespace StockTraderAPI.Controllers.Vererbung.v2;
 [Route("api/v{version:apiVersion}/traders")]
 public class TraderController : AController<Trader>
 {
-    public TraderController(IRepository<Trader> repository, ILogger<AController<Trader>> logger) : base(repository, logger)
+    public TraderController(ITraderRepository repository, ILogger<TraderController> logger) : base(repository, logger)
     {
     }
     

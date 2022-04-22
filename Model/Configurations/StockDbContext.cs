@@ -3,7 +3,7 @@ using Model.Entities;
 
 namespace Model.Configurations;
 
-public class StockDbContext: DbContext
+public class StockDbContext : DbContext
 {
     public DbSet<Stock> Stocks { get; set; }
     public DbSet<Trader> Traders { get; set; }

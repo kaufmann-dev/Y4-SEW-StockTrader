@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\StockTraderAPI\\StockTraderAPI.csproj": {}
+    "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\StockTraderAPI\\StockTraderAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\Domain.csproj": {
+    "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\serbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\serbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj"
+              "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj"
               }
             }
           }
@@ -56,26 +62,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj": {
+    "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\serbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\obj\\",
+        "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\serbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -120,37 +132,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\StockTraderAPI\\StockTraderAPI.csproj": {
+    "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\StockTraderAPI\\StockTraderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\StockTraderAPI\\StockTraderAPI.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\StockTraderAPI\\StockTraderAPI.csproj",
         "projectName": "StockTraderAPI",
-        "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\StockTraderAPI\\StockTraderAPI.csproj",
-        "packagesPath": "C:\\Users\\serbi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\StockTraderAPI\\obj\\",
+        "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\StockTraderAPI\\StockTraderAPI.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\StockTraderAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\serbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Domain\\Domain.csproj"
+              "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\serbi\\Documents\\School projects\\StockTrader\\Model\\Model.csproj"
+              "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\David\\Documents\\School projects\\StockTraderSave\\Model\\Model.csproj"
               }
             }
           }
@@ -202,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
         }
       }
     }

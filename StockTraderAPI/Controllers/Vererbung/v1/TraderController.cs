@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain.Implementations;
 using Domain.Interfaces;
@@ -10,7 +11,7 @@ namespace StockTraderAPI.Controllers.Vererbung.v1;
 [ApiController, ApiVersion("1.0")]
 [Route("api/v{version:apiVersion}/traders")]
 public class TraderController : AController<Trader> {
-    public TraderController(IRepository<Trader> repository, ILogger<TraderController> logger) : base(repository, logger) { }
+    public TraderController(ITraderRepository repository, ILogger<TraderController> logger) : base(repository, logger) { }
 
     [HttpGet("graph/{id:int}")]
     public async Task<ActionResult<List<Trader>>> ReadGraphAsnyc(int id)

@@ -13,8 +13,6 @@ public class Trading {
     public int StockId { get; set; }
     public Stock Stock { get; set; }
 
-    [JsonIgnore]
-
     [Column("TRADER_ID"), Required]
     public int TraderId { get; set; }
     public Trader Trader { get; set; }
@@ -23,6 +21,6 @@ public class Trading {
     public DateTime TradedAt { get; set; }
 
     [Column("PRICE")]
-    [Precision(10,2),Required]
+    [Precision(10,2), Required]
     public float Price { get; set; }
 }

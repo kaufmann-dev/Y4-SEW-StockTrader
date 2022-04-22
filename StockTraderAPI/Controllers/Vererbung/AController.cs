@@ -20,7 +20,11 @@ public abstract class AController<TEntity> : ControllerBase where TEntity : clas
     
     [HttpPost]
     public async Task<ActionResult<TEntity>> CreateAsync(TEntity entity) {
-        await _repository.CreateAsync(entity);
+        var data = await _repository.CreateAsync(entity);
+        if (data is null)
+        {
+            return BadRequest();
+        }
         _Logger.LogInformation($"Created Entity {entity.ToString()}");
         return Ok(entity);
     }
