@@ -27,8 +27,8 @@ builder.Services.AddDbContextFactory<StockDbContext>(
     )
 );
 
-builder.Services.AddScoped<IRepository<Stock>, StockRepository>();
-builder.Services.AddScoped<IRepository<Trader>, TraderRepository>();
+builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<ITraderRepository, TraderRepository>();
 
 
 var app = builder.Build();

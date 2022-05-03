@@ -8,7 +8,8 @@ using Model.Entities;
 
 namespace StockTraderAPI.Controllers; 
 
-public abstract class AController<TEntity> : ControllerBase where TEntity : class{
+public abstract class AController<TEntity> : ControllerBase where TEntity : class
+{
     public IRepository<TEntity> _repository { get; set; }
     
     public ILogger<AController<TEntity>> _Logger { get; set; }
